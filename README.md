@@ -32,6 +32,12 @@ Second, you will need an account at HuggingFace: https://huggingface.co/ . Make 
 
 Lastly, you need to accept the license agreement terms for Stable Diffusion v1.4 at https://huggingface.co/CompVis/stable-diffusion-v1-4 .  Just check the box and accept the terms and you are ready to go!
 
+## Running the script
+
+After you `cd` into the directory, just execute `python StableDiffBot.py` to initialize and run the bot. The first time you run it, the script will pull ~3GB of dependencies. Subsequent runs are much faster to initialize since the dependencies are cached.
+
+When you are done with the bot or want to turn it off, just type `Ctrl + c` in the terminal to end it.
+
 ## Hardware used
 
 My bot is running on a Ubuntu server with a GTX 1080.  At a minimum, you need ~4GB VRAM in an Nvidia GPU to use the code in this repository.
