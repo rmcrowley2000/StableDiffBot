@@ -1,0 +1,18 @@
+name: SDBot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - scipy
+  - ftfy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - ca-certificates
+  - openssl
+  - diffusers=0.3.0
+  - transformers
+  - certifi
+  - mkl-service
